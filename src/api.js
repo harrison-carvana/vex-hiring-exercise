@@ -1,11 +1,4 @@
-type Detail = {
-  id: number;
-  name: string;
-  description: string | null;
-  location?: string;
-};
-
-const details: Array<Detail> = [
+const details = [
   {
     id: 1,
     name: 'Passenger Seat',
@@ -36,7 +29,7 @@ const details: Array<Detail> = [
 ];
 
 class Api {
-  getDetails = async (): Promise<Array<Detail>> => {
+  getDetails = async () => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
     return details;
   };
