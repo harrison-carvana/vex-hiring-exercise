@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './app';
+import { InterviewApp } from './app';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <InterviewApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
