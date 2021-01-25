@@ -1,5 +1,6 @@
 import React from 'react';
 import './app.css';
+import { api } from './api';
 
 export const App: React.FC = () => {
   return (
