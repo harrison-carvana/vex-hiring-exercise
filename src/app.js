@@ -3,21 +3,30 @@ import './app.css';
 
 // import { api } from './api';
 
-export const InterviewApp = () => {
-  return (
-    <div className="app">
-      <div className="details">
-        <div className="sidebar">{/* List of details here */}</div>
+// FUNCTIONAL COMPONENT
+//  ------------------------------
+// export const InterviewApp = () => {
+//   return (
+//     <div className="app">
+//       <div className="details">
+//         <div className="sidebar">{/* List of details here */}</div>
 
-        <div className="main">
-          {/* Selected detail here */}
-          {/* Edit name (required) and description */}
-        </div>
-      </div>
-    </div>
-  );
-};
+//         <div className="main">
+//           {/* Selected detail here */}
+//           {/* Edit name (required) and description */}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
+//  ------------------------------
+//  ------------------------------
+//  ------------------------------
+//  ------------------------------
+
+// CLASS COMPONENT
+//  ------------------------------
 // class App {
 //   constructor(props) {
 //     super(props);
@@ -28,8 +37,11 @@ export const InterviewApp = () => {
 //     return (
 //       <div className="app">
 //         <div className="details">
-//           <div className="sidebar"></div>
-//           <div className="main"></div>
+//           <div className="sidebar">{/* List of details here */}</div>
+//           <div className="main">
+//               {/* Selected detail here */}
+//               {/* Edit name (required) and description */}
+//           </div>
 //         </div>
 //       </div>
 //     );
