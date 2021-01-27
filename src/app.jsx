@@ -1,7 +1,7 @@
 import React from 'react';
 import './app.css';
 
-// import { api } from './api';
+import { api } from './api';
 
 // FUNCTIONAL COMPONENT
 //  ------------------------------
