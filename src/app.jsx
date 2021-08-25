@@ -26,11 +26,10 @@ import { api } from './api';
 //  ------------------------------
 
 // CLASS COMPONENT
-//  ------------------------------
-// class App {
+// //  ------------------------------
+// export class InterviewApp extends React.Component {
 //   constructor(props) {
 //     super(props);
-
 //   }
 
 //   render() {
@@ -39,13 +38,11 @@ import { api } from './api';
 //         <div className="details">
 //           <div className="sidebar">{/* List of details here */}</div>
 //           <div className="main">
-//               {/* Selected detail here */}
-//               {/* Edit name (required) and description */}
+//             {/* Selected detail here */}
+//             {/* Edit name (required) and description */}
 //           </div>
 //         </div>
 //       </div>
 //     );
 //   }
 // }
-
-// export const InterviewApp = new Project();
